@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">AC Clear</string>
+
+    <string name="action_delete">Delete Files</string>
+    <string name="action_rescan">Rescan</string>
+    <string name="action_search">Search</string>
+    <string name="action_sort_by">Sort</string>
+
+    <string name="apps_list_header_title">STORAGE</string>
+    <string name="apps_list_header_system_prefix">System Files</string>
+    <string name="apps_list_header_cache_prefix">Cache Files</string>
+    <string name="apps_list_header_free_prefix">Free Space</string>
+    <string name="apps_list_header_footer">INSTALLED APPS</string>
+    <string name="apps_list_header_memory"><xliff:g id="memory">%1$s</xliff:g></string>
+
+    <string name="cache_deleted">Your apps have been cleaned!</string>
+    <string name="no_such_app">App cleaned!</string>
+
+    <string name="scanning">Scanning Files…</string>
+    <string name="scanning_m_of_n">Scanning %1$d/%2$d</string>
+
+    <string name="cleaning_cache">Cleaning cache</string>
+    <string name="cleaning_in_progress">Magic in progress…</string>
+
+    <string name="cleaned">You freed up (<xliff:g id="memory">%1$s</xliff:g>)</string>
+
+    <string name="sort_by_app_name">Name</string>
+    <string name="sort_by_cache_size">Cache Size</string>
+    <string name="sort_by_key">sort_by</string>
+
+    <string name="clean_on_app_startup_key">clean_on_app_startup</string>
+    <string name="exit_after_clean_key">exit_after_clean</string>
+    <string name="clean_on_system_startup_key">clean_on_device_startup</string>
+
+
+</resources>

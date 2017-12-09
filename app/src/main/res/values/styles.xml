@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Application" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorBackground">@color/primary_dark_material_dark</item>
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryDark">@color/abc_primary_text_material_dark</item>
+        <item name="colorAccent">@color/abc_primary_text_material_dark</item>
+    </style>
+
+    <style name="Theme.Settings" parent="@style/Theme.Application">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="toolbarStyle">@style/Widget.Toolbar</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+    </style>
+
+    <style name="Widget.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="navigationIcon">?attr/homeAsUpIndicator</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+</resources>
